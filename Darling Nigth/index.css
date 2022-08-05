@@ -1,0 +1,65 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#barrasup{
+    background-color: #6F6F6F;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.cabecario{
+    padding: 15px;
+color: white;
+margin-top: 25px;
+}
+#corpo{
+    display: grid;
+    grid-template:
+    "pre_venda promocao" 7fr ;
+}
+#azul{
+    background-color: #6894C8;
+    display: grid;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 25px;
+    height: 20vh;
+    width: 60vh;
+}
+#acabapre{
+    grid-row: 1;
+  padding: 15px;
+}
+#vermelho{
+    background-color: #A05A5E;
+    display: grid;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 25px;
+    height: 20vh;
+    width: 60vh;
+}
+.anuncio{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+#data {
+    grid-column: 1;
+}
+
+.livros1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.livros2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
